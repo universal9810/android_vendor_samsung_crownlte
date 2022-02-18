@@ -5,3 +5,322 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "camera.device@3.2-impl.exynos9810",
+	stem: "camera.device@3.2-impl",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/camera.device@3.2-impl.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/camera.device@3.2-impl.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "camera.device@3.4-impl.exynos9810",
+	stem: "camera.device@3.4-impl",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/camera.device@3.4-impl.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/camera.device@3.4-impl.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "camera.exynos9810",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/camera.exynos9810.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/camera.exynos9810.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libexynoscamera3",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libexynoscamera3.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libexynoscamera3.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libhifistill",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libhifistill.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libhifistill.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libopenvx",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libopenvx.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libopenvx.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libwrappergps",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libwrappergps.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libwrappergps.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libOMX.Exynos.AVC.Encoder",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	relative_install_path: "omx",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libOMX.Exynos.HEVC.Encoder",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	relative_install_path: "omx",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libOMX.Exynos.HEVC.WFD.Encoder",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	relative_install_path: "omx",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "sensors.sensorhub",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/sensors.sensorhub.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/sensors.sensorhub.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsamsungSoundbooster_plus",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/soundfx/libsamsungSoundbooster_plus.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/soundfx/libsamsungSoundbooster_plus.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	relative_install_path: "soundfx",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libswdap",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/soundfx/libswdap.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/soundfx/libswdap.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	relative_install_path: "soundfx",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "librecordalive",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/librecordalive.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libwvhidl",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libwvhidl.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libkeymaster_helper_vendor",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libkeymaster_helper_vendor.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+

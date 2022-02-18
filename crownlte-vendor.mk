@@ -11,7 +11,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/crownlte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000002e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000002e.tlbin \
     vendor/samsung/crownlte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000003e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000003e.tlbin \
     vendor/samsung/crownlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000059.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000059.tlbin \
-    vendor/samsung/crownlte/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-armnn:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.2-service-armnn \
     vendor/samsung/crownlte/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/crownlte/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/crownlte/proprietary/vendor/etc/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
@@ -41,33 +40,22 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/crownlte/proprietary/vendor/firmware/ois_fw_sec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_sec.bin \
     vendor/samsung/crownlte/proprietary/vendor/firmware/setfile_2l3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2l3.bin \
     vendor/samsung/crownlte/proprietary/vendor/firmware/setfile_3h1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3h1.bin \
-    vendor/samsung/crownlte/proprietary/vendor/firmware/setfile_3m3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3m3.bin \
-    vendor/samsung/crownlte/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib/hw/camera.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos9810.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib/libhifistill.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhifistill.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib/libopenvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopenvx.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.sensorhub.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib/soundfx/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsamsungSoundbooster_plus.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib64/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib64/hw/camera.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos9810.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib64/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera3.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib64/libhifistill.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhifistill.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib64/libkeymaster_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper_vendor.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib64/libopenvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopenvx.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib64/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwrappergps.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.Encoder.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib64/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sensorhub.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib64/soundfx/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libsamsungSoundbooster_plus.so \
-    vendor/samsung/crownlte/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so
+    vendor/samsung/crownlte/proprietary/vendor/firmware/setfile_3m3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3m3.bin
+
+PRODUCT_PACKAGES += \
+    camera.device@3.2-impl.exynos9810 \
+    camera.device@3.4-impl.exynos9810 \
+    camera.exynos9810 \
+    libexynoscamera3 \
+    libhifistill \
+    libopenvx \
+    libwrappergps \
+    libOMX.Exynos.AVC.Encoder \
+    libOMX.Exynos.HEVC.Encoder \
+    libOMX.Exynos.HEVC.WFD.Encoder \
+    sensors.sensorhub \
+    libsamsungSoundbooster_plus \
+    libswdap \
+    librecordalive \
+    libwvhidl \
+    libkeymaster_helper_vendor

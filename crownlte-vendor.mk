@@ -54,8 +54,6 @@ PRODUCT_PACKAGES += \
     libOMX.Exynos.HEVC.Encoder \
     libOMX.Exynos.HEVC.WFD.Encoder \
     sensors.sensorhub \
-    libsamsungSoundbooster_plus \
-    libswdap \
     librecordalive \
     libwvhidl \
     libkeymaster_helper_vendor
